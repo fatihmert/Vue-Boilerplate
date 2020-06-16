@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
-import Counter from '../src/Counter.vue'
+import Counter from '@/Counter.vue'
 
 describe('Counter.vue', () => {
     it('increments count when button is clicked', async () => {
