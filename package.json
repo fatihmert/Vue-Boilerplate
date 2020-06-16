@@ -1,23 +1,42 @@
 {
-  "name": "silll",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue_boilerplate",
+  "version": "0.0.1",
+  "author": "Fatih Mert Doğancan <fmdogancan95@gmail.com> (https://github.com/fatihmert)",
+  "repository": "github:fatihmert/Vue-Boilerplate",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
   },
   "dependencies": {
-    "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "babel-preset-env": "^1.7.0",
+    "core-js": "^3.6.5",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "expect": "^26.0.1",
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^8.0.1",
+    "mocha-webpack": "^1.1.0",
+    "mochapack": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-node-externals": "^1.7.2"
   }
 }

@@ -1,4 +1,13 @@
-# silll
+# Vue Boilerplate
+
+> **Important Note:** This repo not completed yet. So it is open beta. 
+
+TODO:
+
+ * Add Vuex
+ * Add Vuerouter
+ * Improve Project Structure
+    
 
 ## Project setup
 ```
