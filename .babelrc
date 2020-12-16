@@ -2,7 +2,7 @@
   "env": {
     "development": {
       "presets": [
-        ["env", { "modules": false }]
+        ["@babel/preset-env", { "modules": false }]
       ]
     },
     "test": {
