@@ -10,6 +10,7 @@
     "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js"
   },
   "dependencies": {
+    "v-mask": "^2.2.3",
     "vue": "^2.6.11",
     "vue-router": "^3.4.9",
     "vuelidate": "^0.7.6",

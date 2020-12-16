@@ -5,6 +5,8 @@ import store from './store'
 // middlewares
 import Vuelidate from 'vuelidate'
 Vue.use(Vuelidate)
+import VueMask from 'v-mask'
+Vue.use(VueMask);
 
 
 import App from './App.vue'
